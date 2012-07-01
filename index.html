@@ -3,3 +3,8 @@ layout: default
 title: Всем привет!
 ---
 <p>Ля-ля-ля, сайт открылся, ля-ля-ля.</p>
+<div>
+{% for item in site.posts %}
+  {{ item }}
+{% endfor %}
+</div>
