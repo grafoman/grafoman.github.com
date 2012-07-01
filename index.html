@@ -5,6 +5,6 @@ title: Всем привет!
 <p>Ля-ля-ля, сайт открылся, ля-ля-ля.</p>
 <div>
 {% for item in site.posts %}
-  {{ item }}
+  <a href="{{ item.url }}">{{ item.title }}</a>
 {% endfor %}
 </div>
