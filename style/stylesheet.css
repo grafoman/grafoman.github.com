@@ -20,3 +20,6 @@ a.logolink:active {text-decoration:none; color:black;}
 a.logolink:visited {text-decoration:none; color:black;}
 a.logolink:hover {text-decoration:underline; color:#79835A;}
 td.eText p { text-indent: 1.25cm; }
+
+.sans { font-family: sans,sans-serif; }
+.serif { font-family: serif; }
