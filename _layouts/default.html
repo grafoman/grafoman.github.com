@@ -1,18 +1,131 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<title>{{ page.title }}</title>
-	</head>
-	<body>
-		<h1>{{ page.title }}</h1>
-		<hr>
-		<div>
-<!-- <content> -->
+<head>
+<title>{{ page.title }}</title>
+<link type="text/css" rel="StyleSheet" href="[CSS_URL]" />
+<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<script>
+$(document).ready( function(){
+	// Почистить форматирование
+	$.each($('[style*="0.35cm"]'), function(i,val){
+		val.style.lineHeight='';
+	});
+	$('.western').removeClass('western');
+	// Подготовить страницу к инциализации shadowbox
+	$.each($('a[href*="_pu"]'), function(index,val){
+		val.rel='shadowbox';
+		val.title='Фотография';
+		val.parentNode.parentNode.parentNode.style.textIndent = '0cm';
+	});
+	// Убрать конкурентов
+	$('.ulightbox').removeClass('ulightbox');
+	// Тень
+	$.each($('.eMessage'), function(index,v){
+		v.style.textShadow='0 1px 0 white';
+	});
+	$.each($('.eText'), function(index,v){
+		v.style.textShadow='0 1px 0 white';
+	});
+});
+</script>
+<style type="text/css">
+	div#sb-wrapper-inner{ border-width: 5px; }
+	div#sb-wrapper-inner{ border-top-width: 0px; }
+	div#sb-title{ background-color: #303030; }
+	div#sb-title-inner{ padding-left: 5px; }
+</style>
+<link rel="stylesheet" type="text/css" href="/shadowbox/shadowbox.css">
+<script type="text/javascript" src="/shadowbox/shadowbox.js"></script>
+<script type="text/javascript">
+// Инициализировать shadowbox
+Shadowbox.init();
+</script>
+</head>
+<body style="background: #fff url('/style/paper.jpg'); padding: 0px; margin: 0px;">
+
+<!-- <header> -->
+<table width="99%" align="center" style="padding: 0px 10px; border-left: 3px solid black; border-right: 3px solid black; position: relative;">
+	<tr>
+		<td style="width: 300px; min-width:300px; font:48pt impact;">
+			<!-- <a href="/" class="logolink" title="На главную">Д.М.<img align="absmiddle" src="/style/typewriter.png" /></a> -->
+			<a href="/" title="На главную" class="logolink" style="padding-left: 170px;">Д.М.</a>
+			<div style="position: absolute; left: 30px; top: 0px;">
+				<a href="/" title="На главную"><img src="/style/typewriter2.png" /></a>
+			</div>
+		</td>
+		<td>
+			<div style="font:48pt impact;" align="center">
+				ГРАФОМАНСКИЙ&nbsp;САЙТ
+			</div>
+			<div align="center">
+				Субъективное мнение объективного человека.
+			</div>
+		</td>
+		<td style="width: 300px;">
+			&nbsp;
+		</td>
+	</tr>
+</table>
+
+<table align="center" style="padding: 0px 10px; border-left: 3px solid black; border-right: 3px solid black;" width="99%">
+	<tr>
+		<td style="font-size: 9pt;" align="right">
+			Издаётся с 17 августа 2010 года
+		</td>
+	</tr>
+</table>
+
+<div style="width: 100%; height: 1px; max-height: 1px; border-bottom: 1px solid black; border-top: 2px solid black;">&nbsp;</div>
+
+<table width="100%" cellpadding="0" cellspacing="0" style="padding: 5px;">
+	<tr>
+		<td style="font-size: 9pt;" width="50%" align="left">
+			<a href="$HOME_PAGE_LINK$">Site home</a> <?if($MODULE_URL$)?>| <a href="$MODULE_URL$">$MODULE_NAME$</a><?endif?> <?if($USER_LOGGED_IN$)?> | <a href="$PERSONAL_PAGE_LINK$">Profile page</a><?else?> | <a href="$REGISTER_LINK$">Register now</a><?endif?> <?if($USER_LOGGED_IN$)?> | <a href="$LOGOUT_LINK$">Log out</a><?else?> | <a href="$LOGIN_LINK$">Log in</a><?endif?>
+			<br>
+			<?if($USER_LOGGED_IN$)?>You logged in as <a href="$PERSONAL_PAGE_LINK$"><b>$USERNAME$</b></a> | Group "<u>$USER_GROUP$</u>"<?else?>Hello <b>$USERNAME$</b><?endif?> <?if($RSS_LINK$)?>| <a href="$RSS_LINK$">RSS</a><?endif?>
+		</td>
+		<td style="font-size: 9pt;" align="right">
+			$WDAY$, $DATE$, $TIME$
+		</td>
+	</tr>
+</table>
+<!-- </header> -->
+
+<!-- <middle> -->
+<br>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top: 1px dotted black;">
+<tr>
+<td valign="top" style="width:200px; padding: 10px; padding-right: 20px;">
+
+<!-- <container> -->
+
+<!-- <block> -->
+ <div style="padding: 5px;">
+ <!-- <div style="text-decoration: underline; margin-bottom: 15px;"><big>T I T L E</big></div> -->
+ <div style="margin-bottom: 15px; border-bottom: 2px solid black;"><big>TITLE</big></div>
+ CONTENT
+ </div>
+ <div height="10px">&nbsp;</div>
+ <!-- <div style="border-top: 1px dotted black;" height="10px">&nbsp;</div> -->
+<!-- </block> -->
+
+<!-- </container> -->
+
+</td>
+ <td style="border-left: 1px dotted #000000; vertical-align: top; horizontal-align: center; padding: 15px 10px 0px 3%; max-width:1000px; width:1000px;">
 {{ content }}
-<!-- </content> -->
-		</div>
-		<hr>
-		<small>&copy; m1kc & dm, 2012</small>
-	</body>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<!-- </middle> -->
+
+<!-- <footer> -->
+<table width="100%"><tr><td align="center" style="border-top: 1px dotted black;">
+Все материалы, размещённые на&nbsp;сайте, являются объектом авторского права, и&nbsp;любое их&nbsp;использование без согласия законного владельца запрещено. Дизайн&nbsp;сайта&nbsp;&mdash;&nbsp;<a href="http://m1kc.ucoz.ru">m1kc</a>. $POWERED_BY$.
+</td></tr></table>
+<!-- </footer> -->
+
+</body>
 </html>
