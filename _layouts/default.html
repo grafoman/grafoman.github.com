@@ -81,12 +81,11 @@
 <table width="100%" cellpadding="0" cellspacing="0" style="padding: 5px;">
 	<tr>
 		<td style="font-size: 9pt;" width="50%" align="left">
-			<a href="$HOME_PAGE_LINK$">Site home</a> <?if($MODULE_URL$)?>| <a href="$MODULE_URL$">$MODULE_NAME$</a><?endif?> <?if($USER_LOGGED_IN$)?> | <a href="$PERSONAL_PAGE_LINK$">Profile page</a><?else?> | <a href="$REGISTER_LINK$">Register now</a><?endif?> <?if($USER_LOGGED_IN$)?> | <a href="$LOGOUT_LINK$">Log out</a><?else?> | <a href="$LOGIN_LINK$">Log in</a><?endif?>
-			<br>
-			<?if($USER_LOGGED_IN$)?>You logged in as <a href="$PERSONAL_PAGE_LINK$"><b>$USERNAME$</b></a> | Group "<u>$USER_GROUP$</u>"<?else?>Hello <b>$USERNAME$</b><?endif?> <?if($RSS_LINK$)?>| <a href="$RSS_LINK$">RSS</a><?endif?>
+			<a href="/">Главная</a>
+			<a href="$RSS_LINK$"><i>RSS</i></a>
 		</td>
 		<td style="font-size: 9pt;" align="right">
-			$WDAY$, $DATE$, $TIME$
+			{{ site.time }} $WDAY$, $DATE$, $TIME$
 		</td>
 	</tr>
 </table>
