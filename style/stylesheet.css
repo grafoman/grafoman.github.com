@@ -1,4 +1,3 @@
-/* General Style */
 a:link {text-decoration:underline; color:#79835A;}
 a:active {text-decoration:underline; color:#79835A;}
 a:visited {text-decoration:underline; color:#79835A;}
@@ -17,55 +16,6 @@ a.noun:hover {text-decoration:underline; color:#4D6D91}
 hr {color:#C9D0DB;height:1px;}
 label {cursor:pointer;cursor:hand}
 
-.blocktitle {font-family:Verdana,Sans-Serif;color:#6C829D;font-size:12px;}
-
-a.menu1:link {text-decoration:underline; color:#FAFAFA}
-a.menu1:active {text-decoration:underline; color:#FAFAFA}
-a.menu1:visited {text-decoration:underline; color:#FAFAFA}
-a.menu1:hover {text-decoration:underline; color:#C9D0DB}
-.menuTd {padding-left:12px;padding-right:10px; background: url('/.s/t/181/7.gif') no-repeat 0px 3px;}
-
-.mframe {border-left:1px solid #E5E7EA; border-right:1px solid #E5E7EA;}
-.colgray {border-right:1px solid #E5E7EA;}
-.colwhite {border-right:1px solid #FAFAFA;}
-.msep {border-top:1px solid #FAFAFA;}
-/* ------------- */
-
-/* Entries Style */
-.eBlock {}
-<!-- 
-.eTitle {font-family:Verdana,Arial,Sans-Serif;font-size:13px;font-weight:bold;color:#4D6D91; padding: 0 0 0 17px; background: url('/.s/t/181/11.gif') no-repeat 0px 2px;}
--->
-.eTitle {font-family:Verdana,Arial,Sans-Serif;font-size:13px;font-weight:bold;color:#79835A; padding: 0 0 0 36px; background: url('http://musson.ucoz.ru/style/arrow.png') no-repeat 0px 2px;}
-.eTitle a:link {text-decoration:underline; color:#79835A;}
-.eTitle a:visited {text-decoration:underline; color:#79835A;}
-.eTitle a:hover {text-decoration:underline; color:#000000;}
-.eTitle a:active {text-decoration:underline; color:#79835A;}
-
-.blogtext {text-align:justify;padding-bottom:5px;font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
-.blogtext font {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
-.blogtext div {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
-.blogtext span {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
-.offset {text-indent: 3.5em !important;}
-.offset div {text-indent: 3.5em !important;}
-.offset p {text-indent: 3.5em !important;}
-.eMessage {text-align:justify;padding-bottom:5px;font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
-.eMessage font {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
-.eMessage div {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
-.eMessage span {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
-.eText img[align=left] {margin-right:10px !important; margin-top:10px !important; margin-bottom:10px !important; float: left !important; clear: left !important; position: relative; _height:0;}
-.eText img[align=right] {margin-left:10px !important; margin-top:10px !important; margin-bottom:10px !important; float: right !important; clear: right !important; position: relative; _height:0;}
-.eText a {position: relative; _height: 0;}
-.eText {text-align:justify;padding-bottom:5px;padding-top:5px;border-top:1px solid #C9D0DB; font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
-.eText font {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
-.eText div {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
-.eText span {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
-.eDetails {border-top:1px dashed #DDDDDD;border-bottom:1px dashed #DDDDDD;font-family:Tahoma,Arial,Sans-Serif;color:#1A1A1A;padding-bottom:5px;padding-top:3px;text-align:left;font-size:7pt;}
-.eDetails1 {border-top:1px dashed #DDDDDD;border-bottom:1px dashed #DDDDDD;font-family:Tahoma,Arial,Sans-Serif;color:#1A1A1A;padding-bottom:5px;padding-top:3px;text-align:left;font-size:8pt;}
-.eDetails2 {border-bottom:1px dashed #DDDDDD;font-family:Tahoma,Arial,Sans-Serif;color:#1A1A1A;padding-bottom:5px;padding-top:3px;text-align:left;font-size:8pt;}
-/* ------------- */
-
-/* custom */
 a.logolink:link {text-decoration:none; color:black;}
 a.logolink:active {text-decoration:none; color:black;}
 a.logolink:visited {text-decoration:none; color:black;}
