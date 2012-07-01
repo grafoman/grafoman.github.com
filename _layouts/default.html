@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>{{ page.title }}</title>
-<link type="text/css" rel="StyleSheet" href="[CSS_URL]" />
-<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-<script>
-$(document).ready( function(){
-	// Почистить форматирование
-	$.each($('[style*="0.35cm"]'), function(i,val){
-		val.style.lineHeight='';
+	<meta charset="utf-8" />
+	<title>{{ page.title }}</title>
+	<link type="text/css" rel="StyleSheet" href="[CSS_URL]" />
+	<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+	<script>
+	$(document).ready( function(){
+		// Почистить форматирование
+		$.each($('[style*="0.35cm"]'), function(i,val){
+			val.style.lineHeight='';
+		});
+		$('.western').removeClass('western');
+		// Подготовить страницу к инциализации shadowbox
+		$.each($('a[href*="_pu"]'), function(index,val){
+			val.rel='shadowbox';
+			val.title='Фотография';
+			val.parentNode.parentNode.parentNode.style.textIndent = '0cm';
+		});
+		// Убрать конкурентов
+		$('.ulightbox').removeClass('ulightbox');
+		// Тень
+		$.each($('.eMessage'), function(index,v){
+			v.style.textShadow='0 1px 0 white';
+		});
+		$.each($('.eText'), function(index,v){
+			v.style.textShadow='0 1px 0 white';
+		});
 	});
-	$('.western').removeClass('western');
-	// Подготовить страницу к инциализации shadowbox
-	$.each($('a[href*="_pu"]'), function(index,val){
-		val.rel='shadowbox';
-		val.title='Фотография';
-		val.parentNode.parentNode.parentNode.style.textIndent = '0cm';
-	});
-	// Убрать конкурентов
-	$('.ulightbox').removeClass('ulightbox');
-	// Тень
-	$.each($('.eMessage'), function(index,v){
-		v.style.textShadow='0 1px 0 white';
-	});
-	$.each($('.eText'), function(index,v){
-		v.style.textShadow='0 1px 0 white';
-	});
-});
-</script>
-<style type="text/css">
-	div#sb-wrapper-inner{ border-width: 5px; }
-	div#sb-wrapper-inner{ border-top-width: 0px; }
-	div#sb-title{ background-color: #303030; }
-	div#sb-title-inner{ padding-left: 5px; }
-</style>
-<link rel="stylesheet" type="text/css" href="/shadowbox/shadowbox.css">
-<script type="text/javascript" src="/shadowbox/shadowbox.js"></script>
-<script type="text/javascript">
-// Инициализировать shadowbox
-Shadowbox.init();
-</script>
+	</script>
+	<style type="text/css">
+		div#sb-wrapper-inner{ border-width: 5px; }
+		div#sb-wrapper-inner{ border-top-width: 0px; }
+		div#sb-title{ background-color: #303030; }
+		div#sb-title-inner{ padding-left: 5px; }
+	</style>
+	<link rel="stylesheet" type="text/css" href="/shadowbox/shadowbox.css">
+	<script type="text/javascript" src="/shadowbox/shadowbox.js"></script>
+	<script type="text/javascript">
+	// Инициализировать shadowbox
+	Shadowbox.init();
+	</script>
 </head>
 <body style="background: #fff url('/style/paper.jpg'); padding: 0px; margin: 0px;">
 
