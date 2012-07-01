@@ -3,7 +3,6 @@ a:active {text-decoration:underline; color:#79835A;}
 a:visited {text-decoration:underline; color:#79835A;}
 a:hover {text-decoration:underline; color:#000000;}
 
-td, body {font-family:verdana,arial,helvetica; font-size:8pt;}
 form {padding:0px;margin:0px;}
 input,textarea,select {vertical-align:middle; font-size:8pt; font-family:verdana,arial,helvetica;}
 .copy {font-size:7pt;}
