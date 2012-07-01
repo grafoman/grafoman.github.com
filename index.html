@@ -4,7 +4,10 @@ title: Всем привет!
 ---
 <p>Ля-ля-ля, сайт открылся, ля-ля-ля.</p>
 <div>
+<h2>Вот можно почитать:</h2>
+<ul>
 {% for item in site.posts %}
-  <a href="{{ item.url }}">{{ item.title }}</a>
+  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
 {% endfor %}
+</ul>
 </div>
