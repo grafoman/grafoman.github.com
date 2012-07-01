@@ -31,39 +31,6 @@ a.menu1:hover {text-decoration:underline; color:#C9D0DB}
 .msep {border-top:1px solid #FAFAFA;}
 /* ------------- */
 
-/* Site Menus */
-.uMenuH li {float:left;padding:0 5px;}
-
-
-.uMenuV .uMenuItem {font-weight:normal;}
-.uMenuV li a:link {text-decoration:underline; color:#79835A}
-.uMenuV li a:active {text-decoration:underline; color:#79835A}
-.uMenuV li a:visited {text-decoration:underline; color:#79835A}
-.uMenuV li a:hover {text-decoration:none; color:#000}
-
-.uMenuV a.uMenuItemA:link {text-decoration:none; color:#79835A}
-.uMenuV a.uMenuItemA:visited {text-decoration:none; color:#79835A}
-.uMenuV a.uMenuItemA:hover {text-decoration:none; color:#000}
-.uMenuV .uMenuArrow {position:absolute;width:10px;height:10px;right:0;top:3px;background:url('/.s/img/wd/1/ar1.gif') no-repeat 0 0;}
-.uMenuV li {font-size: 9pt; height: 16px; margin: 0; padding: 0 0 0 36px; background: url('/style/arrow.png') no-repeat 0px 0px; margin-bottom: .6em;}
-/* --------- */
-
-/* Module Part Menu */
-.catsTd {padding: 0 0 3px 11px; background: url('/.s/t/181/10.gif') no-repeat 0px 4px;}
-.catName {font-family:Tahoma,Arial,Sans-Serif;font-size:11px;}
-.catNameActive {font-family:Tahoma,Arial,Sans-Serif;font-size:11px;}
-.catNumData {font-size:7pt;color:#79835A;}
-.catDescr {font-size:7pt; padding-left:10px;}
-a.catName:link {text-decoration:underline; color:#79835A;}
-a.catName:visited {text-decoration:underline; color:#79835A;}
-a.catName:hover {text-decoration:none; color:#000000;}
-a.catName:active {text-decoration:none; color:#000000;}
-a.catNameActive:link {text-decoration:none; color:#79835A;}
-a.catNameActive:visited {text-decoration:none; color:#79835A;}
-a.catNameActive:hover {text-decoration:none; color:#000000;}
-a.catNameActive:active {text-decoration:none; color:#000000;}
-/* ----------------- */
-
 /* Entries Style */
 .eBlock {}
 <!-- 
@@ -96,37 +63,7 @@ a.catNameActive:active {text-decoration:none; color:#000000;}
 .eDetails {border-top:1px dashed #DDDDDD;border-bottom:1px dashed #DDDDDD;font-family:Tahoma,Arial,Sans-Serif;color:#1A1A1A;padding-bottom:5px;padding-top:3px;text-align:left;font-size:7pt;}
 .eDetails1 {border-top:1px dashed #DDDDDD;border-bottom:1px dashed #DDDDDD;font-family:Tahoma,Arial,Sans-Serif;color:#1A1A1A;padding-bottom:5px;padding-top:3px;text-align:left;font-size:8pt;}
 .eDetails2 {border-bottom:1px dashed #DDDDDD;font-family:Tahoma,Arial,Sans-Serif;color:#1A1A1A;padding-bottom:5px;padding-top:3px;text-align:left;font-size:8pt;}
-
-.eRating {font-size:7pt;}
-.eAttach {margin: 16px 0 0 0; padding: 0 0 0 15px; background: url('/.s/t/181/12.gif') no-repeat 0px 0px;}
 /* ------------- */
-
-/* Entry Manage Table */
-.manTable {}
-.manTdError {color:#FF0000;}
-.manTd1 {}
-.manTd2 {}
-.manTd3 {}
-.manTdSep {}
-.manHr {}
-.manTdBrief {}
-.manTdText {}
-.manTdFiles {}
-.manFlFile {}
-.manTdBut {}
-.manFlSbm {}
-.manFlRst {}
-.manFlCnt {}
-/* ------------------ */
-
-/* Archive Menu */
-.archUl {list-style: none; margin:0; padding-left:0;}
-.archLi {padding: 0 0 3px 10px; background: url('/.s/t/181/10.gif') no-repeat 0px 4px; font-family:Tahoma,Arial,Sans-Serif;}
-a.archLink:link {text-decoration:underline; color:#79835A}
-a.archLink:visited {text-decoration:underline; color:#79835A;}
-a.archLink:hover {text-decoration:none; color:#000000;}
-a.archLink:active {text-decoration:none; color:#000000;}
-/* ------------ */
 
 /* custom */
 a.logolink:link {text-decoration:none; color:black;}
