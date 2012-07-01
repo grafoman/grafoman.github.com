@@ -1,0 +1,364 @@
+/* General Style */
+a:link {text-decoration:underline; color:#79835A;}
+a:active {text-decoration:underline; color:#79835A;}
+a:visited {text-decoration:underline; color:#79835A;}
+a:hover {text-decoration:underline; color:#000000;}
+
+td, body {font-family:verdana,arial,helvetica; font-size:8pt;}
+form {padding:0px;margin:0px;}
+input,textarea,select {vertical-align:middle; font-size:8pt; font-family:verdana,arial,helvetica;}
+.copy {font-size:7pt;}
+
+a.noun:link {text-decoration:none; color:#4D6D91}
+a.noun:active {text-decoration:none; color:#4D6D91}
+a.noun:visited {text-decoration:none; color:#4D6D91}
+a.noun:hover {text-decoration:underline; color:#4D6D91}
+
+hr {color:#C9D0DB;height:1px;}
+label {cursor:pointer;cursor:hand}
+
+.blocktitle {font-family:Verdana,Sans-Serif;color:#6C829D;font-size:12px;}
+
+a.menu1:link {text-decoration:underline; color:#FAFAFA}
+a.menu1:active {text-decoration:underline; color:#FAFAFA}
+a.menu1:visited {text-decoration:underline; color:#FAFAFA}
+a.menu1:hover {text-decoration:underline; color:#C9D0DB}
+.menuTd {padding-left:12px;padding-right:10px; background: url('/.s/t/181/7.gif') no-repeat 0px 3px;}
+
+.mframe {border-left:1px solid #E5E7EA; border-right:1px solid #E5E7EA;}
+.colgray {border-right:1px solid #E5E7EA;}
+.colwhite {border-right:1px solid #FAFAFA;}
+.msep {border-top:1px solid #FAFAFA;}
+/* ------------- */
+
+/* Menus */
+ul.uz, ul.uMenuRoot {list-style: none; margin: 0 0 0 0; padding-left: 0px;}
+li.menus {margin: 0; padding: 0 0 0 13px; background: url('/.s/t/181/8.gif') no-repeat 0px 3px; margin-bottom: .6em;}
+/* ----- */
+
+/* Site Menus */
+.uMenuH li {float:left;padding:0 5px;}
+
+
+.uMenuV .uMenuItem {font-weight:normal;}
+.uMenuV li a:link {text-decoration:underline; color:#79835A}
+.uMenuV li a:active {text-decoration:underline; color:#79835A}
+.uMenuV li a:visited {text-decoration:underline; color:#79835A}
+.uMenuV li a:hover {text-decoration:none; color:#000}
+
+.uMenuV a.uMenuItemA:link {text-decoration:none; color:#79835A}
+.uMenuV a.uMenuItemA:visited {text-decoration:none; color:#79835A}
+.uMenuV a.uMenuItemA:hover {text-decoration:none; color:#000}
+.uMenuV .uMenuArrow {position:absolute;width:10px;height:10px;right:0;top:3px;background:url('/.s/img/wd/1/ar1.gif') no-repeat 0 0;}
+.uMenuV li {font-size: 9pt; height: 16px; margin: 0; padding: 0 0 0 36px; background: url('/style/arrow.png') no-repeat 0px 0px; margin-bottom: .6em;}
+/* --------- */
+
+/* Module Part Menu */
+.catsTd {padding: 0 0 3px 11px; background: url('/.s/t/181/10.gif') no-repeat 0px 4px;}
+.catName {font-family:Tahoma,Arial,Sans-Serif;font-size:11px;}
+.catNameActive {font-family:Tahoma,Arial,Sans-Serif;font-size:11px;}
+.catNumData {font-size:7pt;color:#79835A;}
+.catDescr {font-size:7pt; padding-left:10px;}
+a.catName:link {text-decoration:underline; color:#79835A;}
+a.catName:visited {text-decoration:underline; color:#79835A;}
+a.catName:hover {text-decoration:none; color:#000000;}
+a.catName:active {text-decoration:none; color:#000000;}
+a.catNameActive:link {text-decoration:none; color:#79835A;}
+a.catNameActive:visited {text-decoration:none; color:#79835A;}
+a.catNameActive:hover {text-decoration:none; color:#000000;}
+a.catNameActive:active {text-decoration:none; color:#000000;}
+/* ----------------- */
+
+/* Entries Style */
+.eBlock {}
+<!-- 
+.eTitle {font-family:Verdana,Arial,Sans-Serif;font-size:13px;font-weight:bold;color:#4D6D91; padding: 0 0 0 17px; background: url('/.s/t/181/11.gif') no-repeat 0px 2px;}
+-->
+.eTitle {font-family:Verdana,Arial,Sans-Serif;font-size:13px;font-weight:bold;color:#79835A; padding: 0 0 0 36px; background: url('http://musson.ucoz.ru/style/arrow.png') no-repeat 0px 2px;}
+.eTitle a:link {text-decoration:underline; color:#79835A;}
+.eTitle a:visited {text-decoration:underline; color:#79835A;}
+.eTitle a:hover {text-decoration:underline; color:#000000;}
+.eTitle a:active {text-decoration:underline; color:#79835A;}
+
+.blogtext {text-align:justify;padding-bottom:5px;font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
+.blogtext font {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
+.blogtext div {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
+.blogtext span {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
+.offset {text-indent: 3.5em !important;}
+.offset div {text-indent: 3.5em !important;}
+.offset p {text-indent: 3.5em !important;}
+.eMessage {text-align:justify;padding-bottom:5px;font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
+.eMessage font {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
+.eMessage div {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
+.eMessage span {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
+.eText img[align=left] {margin-right:10px !important; margin-top:10px !important; margin-bottom:10px !important; float: left !important; clear: left !important; position: relative; _height:0;}
+.eText img[align=right] {margin-left:10px !important; margin-top:10px !important; margin-bottom:10px !important; float: right !important; clear: right !important; position: relative; _height:0;}
+.eText a {position: relative; _height: 0;}
+.eText {text-align:justify;padding-bottom:5px;padding-top:5px;border-top:1px solid #C9D0DB; font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
+.eText font {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
+.eText div {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
+.eText span {font-size: 10pt !important;font-family: Verdana,sans-serif !important;}
+.eDetails {border-top:1px dashed #DDDDDD;border-bottom:1px dashed #DDDDDD;font-family:Tahoma,Arial,Sans-Serif;color:#1A1A1A;padding-bottom:5px;padding-top:3px;text-align:left;font-size:7pt;}
+.eDetails1 {border-top:1px dashed #DDDDDD;border-bottom:1px dashed #DDDDDD;font-family:Tahoma,Arial,Sans-Serif;color:#1A1A1A;padding-bottom:5px;padding-top:3px;text-align:left;font-size:8pt;}
+.eDetails2 {border-bottom:1px dashed #DDDDDD;font-family:Tahoma,Arial,Sans-Serif;color:#1A1A1A;padding-bottom:5px;padding-top:3px;text-align:left;font-size:8pt;}
+
+.eRating {font-size:7pt;}
+.eAttach {margin: 16px 0 0 0; padding: 0 0 0 15px; background: url('/.s/t/181/12.gif') no-repeat 0px 0px;}
+/* ------------- */
+
+/* Entry Manage Table */
+.manTable {}
+.manTdError {color:#FF0000;}
+.manTd1 {}
+.manTd2 {}
+.manTd3 {}
+.manTdSep {}
+.manHr {}
+.manTdBrief {}
+.manTdText {}
+.manTdFiles {}
+.manFlFile {}
+.manTdBut {}
+.manFlSbm {}
+.manFlRst {}
+.manFlCnt {}
+/* ------------------ */
+
+/* Comments Style */
+.cAnswer {padding-left:15px;padding-top:4px;font-style:italic;}
+.cBlock1 {background:#FAFAFA; border:1px solid #C9D0DB;}
+.cBlock2 {background:#F1F2F3; border:1px solid #C9D0DB;}
+/* -------------- */
+
+/* Comments Form Style */
+.commTable {}
+.commTd1 {color:#000000;}
+.commTd2 {}
+.commFl {color:#4D6D91;width:100%;background:#FAFCFE;border:1px solid #C9D0DB;}
+.smiles {border:1px inset;background:#FFFFFF;}
+.commReg {padding: 10 0 10 0px; text-align:center;}
+.commError {color:#FF0000;}
+.securityCode {color:#4D6D91;background:#FAFCFE;border:1px solid #C9D0DB;}
+/* ------------------- */
+
+/* Archive Menu */
+.archUl {list-style: none; margin:0; padding-left:0;}
+.archLi {padding: 0 0 3px 10px; background: url('/.s/t/181/10.gif') no-repeat 0px 4px; font-family:Tahoma,Arial,Sans-Serif;}
+a.archLink:link {text-decoration:underline; color:#79835A}
+a.archLink:visited {text-decoration:underline; color:#79835A;}
+a.archLink:hover {text-decoration:none; color:#000000;}
+a.archLink:active {text-decoration:none; color:#000000;}
+/* ------------ */
+
+/* Archive Style */
+.archiveCalendars {text-align:center;color:#0000FF;}
+.archiveDateTitle {font-weight:bold;color:#4D6D91;padding-top:15px;}
+.archEntryHr {width:250px;color:#DDDDDD;}
+.archiveeTitle li {margin-left: 15px; padding: 0 0 0 15px; background: url('/.s/t/181/8.gif') no-repeat 0px 4px; margin-bottom: .6em;}
+.archiveEntryTime {width:65px;font-style:italic;}
+.archiveEntryComms {font-size:9px;color:#C3C3C3;}
+a.archiveDateTitleLink:link {text-decoration:none; color:#4D6D91}
+a.archiveDateTitleLink:visited {text-decoration:none; color:#4D6D91}
+a.archiveDateTitleLink:hover {text-decoration:underline; color:#4D6D91}
+a.archiveDateTitleLink:active {text-decoration:underline; color:#4D6D91}
+.archiveNoEntry {text-align:center;color:#0000FF;}
+/* ------------- */
+
+/* Calendar Style */
+.calMonth {border:1px solid #B7BDC5; }
+.calWday {color:#FFFFFF; background:#B7BDC5; width:18px;}
+.calWdaySe {color:#FFFFFF; background:#AAB689; width:18px;}
+.calWdaySu {color:#FFFFFF; background:#AAB689; width:18px; font-weight:bold;}
+.calMday {background:#E6E8EA;}
+.calMdayA {background:#D4E3C0;font-weight:bold;}
+.calMdayIs {background:#D4E3C0;font-weight:bold;}
+.calMdayIsA {border:1px solid #AAB689; background:#D4E3C0;font-weight:bold;}
+a.calMonthLink:link,a.calMdayLink:link {text-decoration:none; color:#79835A;}
+a.calMonthLink:visited,a.calMdayLink:visited {text-decoration:none; color:#79835A;}
+a.calMonthLink:hover,a.calMdayLink:hover {text-decoration:underline; color:#79835A;}
+a.calMonthLink:active,a.calMdayLink:active {text-decoration:underline; color:#000000;}
+/* -------------- */
+
+/* Poll styles */
+.pollBut {width:110px;}
+
+.pollBody {padding:7px; margin:0px; background:#FFFFFF}
+.textResults {background:#E2E6EA}
+.textResultsTd {background:#FFFFFF}
+
+.pollNow {border-bottom:1px solid #E2E6EA; border-left:1px solid #E2E6EA; border-right:1px solid #E2E6EA;}
+.pollNowTd {}
+
+.totalVotesTable {border-bottom:1px solid #E2E6EA; border-left:1px solid #E2E6EA; border-right:1px solid #E2E6EA;}
+.totalVotesTd {background:#FFFFFF;}
+/* ---------- */
+
+/* User Group Marks */
+a.groupModer:link,a.groupModer:visited,a.groupModer:hover {color:blue;}
+a.groupAdmin:link,a.groupAdmin:visited,a.groupAdmin:hover {color:red;}
+a.groupVerify:link,a.groupVerify:visited,a.groupVerify:hover {color:green;}
+/* ---------------- */
+
+/* Other Styles */
+.replaceTable {background:#F5F9FD;height:100px;width:300px;border:1px solid #597798;}
+.legendTd {font-size:7pt;}
+/* ------------ */
+
+/* ===== forum Start ===== */
+
+/* General forum Table View */
+.gTable {background:#597798}
+.gTableTop {padding:2px;background:#677E9A;color:#FFFFFF;font-weight:bold;height:23px;padding-left:17px;font-size:10pt;background: url('/.s/t/181/14.gif') no-repeat 5px 7px;}
+.gTableSubTop {padding:2px;background:#DADFE7;color:#000000;height:20px;font-size:10px;}
+.gTableBody {padding:2px;background:#FAFAFA;}
+.gTableBody1 {padding:2px;background:#FFFFFF;}
+.gTableBottom {padding:2px;background:#FAFAFA;}
+.gTableLeft {padding:2px;background:#EFF1F5;font-weight:bold;color:#4D6D91}
+.gTableRight {padding:2px;background:#F8F9FA}
+.gTableError {padding:2px;background:#FAFAFA;color:#FF0000;}
+/* ------------------------ */
+
+/* Forums Styles */
+.forumNameTd,.forumLastPostTd {padding:2px;background:#FFFFFF}
+.forumIcoTd,.forumThreadTd,.forumPostTd {padding:2px;background:#EFF1F5}
+.forumLastPostTd,.forumArchive {padding:2px;font-size:7pt;}
+
+a.catLink:link {text-decoration:none; color:#FFFFFF;}
+a.catLink:visited {text-decoration:none; color:#FFFFFF;}
+a.catLink:hover {text-decoration:underline; color:#FFFFFF;}
+a.catLink:active {text-decoration:underline; color:#FFFFFF;}
+
+.lastPostGuest,.lastPostUser,.threadAuthor {font-weight:bold}
+.archivedForum{font-size:7pt;color:#FF0000;font-weight:bold;}
+/* ------------- */
+
+/* forum Titles & other */
+.forum {font-weight:bold;font-size:9pt;}
+.forumDescr,.forumModer {color:#858585;font-size:7pt;}
+.forumViewed {font-size:9px;}
+a.forum:link, a.lastPostUserLink:link, a.forumLastPostLink:link, a.threadAuthorLink:link {text-decoration:none; color:#4D6D91;}
+a.forum:visited, a.lastPostUserLink:visited, a.forumLastPostLink:visited, a.threadAuthorLink:visited {text-decoration:none; color:#4D6D91;}
+a.forum:hover, a.lastPostUserLink:hover, a.forumLastPostLink:hover, a.threadAuthorLink:hover {text-decoration:underline; color:#6F8EB3;}
+a.forum:active, a.lastPostUserLink:active, a.forumLastPostLink:active, a.threadAuthorLink:active {text-decoration:underline; color:#4D6D91;}
+/* -------------------- */
+
+/* forum Navigation Bar */
+.forumNamesBar {font-weight:bold;font-size:7pt;}
+.forumBarKw {font-weight:normal;}
+a.forumBarA:link {text-decoration:none; color:#000000;}
+a.forumBarA:visited {text-decoration:none; color:#000000;}
+a.forumBarA:hover {text-decoration:none; color:#4D6D91;}
+a.forumBarA:active {text-decoration:underline; color:#4D6D91;}
+/* -------------------- */
+
+/* forum Fast Navigation Blocks */
+.fastNav,.fastSearch,.fastLoginForm {font-size:7pt;}
+/* ---------------------------- */
+
+/* forum Fast Navigation Menu */
+.fastNavMain {background:#C7D7EF;}
+.fastNavCat {background:#E7EEF8;}
+.fastNavCatA {background:#E7EEF8;color:#0000FF}
+.fastNavForumA {color:#0000FF}
+/* -------------------------- */
+
+/* forum Page switches */
+.switches {background:#C9D0DB;}
+.pagesInfo {background:#FFFFFF;padding-right:10px;font-size:7pt;}
+.switch {background:#FFFFFF;width:15px;font-size:7pt;}
+.switchActive {background:#DADFE7;font-weight:bold;color:#4D6D91;width:15px}
+a.switchDigit:link,a.switchBack:link,a.switchNext:link {text-decoration:none; color:#000000;}
+a.switchDigit:visited,a.switchBack:visited,a.switchNext:visited {text-decoration:none; color:#000000;}
+a.switchDigit:hover,a.switchBack:hover,a.switchNext:hover {text-decoration:underline; color:#FF0000;}
+a.switchDigit:active,a.switchBack:active,a.switchNext:active {text-decoration:underline; color:#FF0000;}
+/* ------------------- */
+
+/* forum Threads Style */
+.threadNametd,.threadAuthTd,.threadLastPostTd {padding:2px;padding:2px;background:#FFFFFF}
+.threadIcoTd,.threadPostTd,.threadViewTd {padding:2px;background:#EFF1F5}
+.threadLastPostTd {padding:2px;font-size:7pt;}
+.threadDescr {color:#858585;font-size:7pt;}
+.threadNoticeLink {font-weight:bold;}
+.threadsType {padding:2px;background:#EFF1F5;height:25px;font-weight:bold;font-size:7pt;color:#4D6D91;padding-left:40px;}
+.threadsDetails {padding:2px;background:#EFF1F5;height:25px;color:#4D6D91;}
+.forumOnlineBar {padding:2px;background:#EFF1F5;height:25px;color:#4D6D91;}
+
+a.threadPinnedLink:link {text-decoration:none; color:#0000FF;}
+a.threadPinnedLink:visited {text-decoration:none; color:#0000FF;}
+a.threadPinnedLink:hover {text-decoration:none; color:#FF0000;}
+a.threadPinnedLink:active {text-decoration:underline; color:#FF0000;}
+
+a.threadLink:link {text-decoration:none; color:#4D6D91;}
+a.threadLink:visited {text-decoration:none; color:#4D6D91;}
+a.threadLink:hover {text-decoration:underline; color:#000000;}
+a.threadLink:active {text-decoration:underline; color:#000000;}
+
+.postpSwithces {font-size:7pt;}
+.thDescr {font-weight:normal;}
+.threadFrmBlock {font-size:7pt;text-align:right;}
+/* ------------------- */
+
+/* forum Posts View */
+.postTable {}
+.postPoll {background:#EEF2F7;text-align:center;}
+.postFirst {background:#F5F9FD;border-bottom:3px solid #597798;}
+.postRest1 {background:#EEF2F7;}
+.postRest2 {background:#F5F9FD;}
+.postSeparator {height:3px;background:#8394B2;}
+
+.postTdTop,.postBottom {background:#DADFE7;height:20px}
+.postUser {font-weight:bold;}
+.postTdInfo {text-align:center;padding:5px;}
+.postRankName {margin-top:5px;}
+.postRankIco {margin-bottom:5px;margin-bottom:5px;}
+.reputation {margin-top:5px;}
+.signatureHr {margin-top:20px;color:#597798;}
+.posttdMessage {padding:5px;}
+
+.pollQuestion {text-align:center;font-weight:bold;} 
+.pollButtons,.pollTotal {text-align:center;}
+.pollSubmitBut,.pollreSultsBut {width:140px;font-size:7pt;}
+.pollSubmit {font-weight:bold;}
+.pollEnd {text-align:center;height:30px;}
+
+.codeMessage {background:#FFFFFF;font-size:9px;}
+.quoteMessage {background:#FFFFFF;font-size:9px;}
+
+.signatureView {font-size:7pt;} 
+.edited {padding-top:30px;font-size:7pt;text-align:right;color:gray;}
+.editedBy {font-weight:bold;font-size:8pt;}
+
+.statusBlock {padding-top:3px;}
+.statusOnline {color:#0000FF;}
+.statusOffline {color:#FF0000;}
+/* ------------------ */
+
+/* forum AllInOne Fast Add */
+.newThreadBlock {background: #F9F9F9;border: 1px solid #B2B2B2;}
+.newPollBlock {background: #F9F9F9;border: 1px solid #B2B2B2;}
+.newThreadItem {padding: 0 0 0 8px; background: url('/.s/t/181/15.gif') no-repeat 0px 4px;}
+.newPollItem {padding: 0 0 0 8px; background: url('/.s/t/181/15.gif') no-repeat 0px 4px;}
+/* ----------------------- */
+
+/* forum Post Form */
+.codeButtons {font-size:7pt;background:#FAFCFE;border:1px solid #4D6D91;}
+.codeCloseAll {font-size:7pt; color:#4D6D91;font-weight:bold;background:#FAFCFE;border:1px solid #4D6D91;}
+.postNameFl,.postDescrFl {background:#FAFCFE;border:1px solid #4D6D91;width:400px}
+.postPollFl,.postQuestionFl {background:#FAFCFE;border:1px solid #4D6D91;width:400px}
+.postResultFl {background:#FAFCFE;border:1px solid #4D6D91;width:50px}
+.postAnswerFl {background:#FAFCFE;border:1px solid #4D6D91;width:300px}
+.postTextFl {background:#FAFCFE;border:1px solid #4D6D91;width:550px;height:150px}
+.postUserFl {background:#FAFCFE;border:1px solid #4D6D91;width:300px}
+
+.pollHelp {font-weight:normal;font-size:7pt;padding-top:3px;}
+.smilesPart {padding-top:5px;text-align:center}
+/* ----------------- */
+
+/* ====== forum End ====== */
+
+a.logolink:link {text-decoration:none; color:black;}
+a.logolink:active {text-decoration:none; color:black;}
+a.logolink:visited {text-decoration:none; color:black;}
+a.logolink:hover {text-decoration:underline; color:#79835A;}
+
+td.eText p { text-indent: 1.25cm; }
