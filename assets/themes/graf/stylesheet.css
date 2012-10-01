@@ -1,3 +1,5 @@
+body { background: #fff url('paper.jpg'); padding: 0px; margin: 0px; }
+
 a:link {text-decoration:underline; color:#79835A;}
 a:active {text-decoration:underline; color:#79835A;}
 a:visited {text-decoration:underline; color:#79835A;}
